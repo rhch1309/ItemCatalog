@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %} {{categoryItem.name}} {% endblock %}
+{% block content %}
+<h2 class = "text-primary">{{categoryItem.name}}</h2>
+<p class="lead">{{categoryItem.detail}}</p>
+{% if login %}
+<a href="{{url_for('editItem', item_id = categoryItem.id, catalog_id = categoryItem.cat_id)}}">Edit</a> |
+<a href="{{url_for('deleteItem', item_id = categoryItem.id, catalog_id = categoryItem.cat_id)}}">Delete</a>
+{% endif %}
+{% endblock %}

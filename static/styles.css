@@ -1,0 +1,27 @@
+body {
+	background-color: #f0f5ff;
+}
+
+.navbar {
+	background-color: #c8ffc4;
+}
+
+.navbar-data {
+	padding: 5px;
+	font-size: 25px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.content-block {
+	background-color: #f98;
+}
+
+.items-block {
+	border-left: grey solid 1px;
+}
+
+.row {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
